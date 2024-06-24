@@ -13,7 +13,7 @@ y_mod_sin = []
 y_mod_cos = []
 
 i = 0
-j = 100
+j = 101
 while i < len(x_values):
     if i % j == 0:
         print(f"x[{i}] = {x_values[i]:.2f}, sin(x) = {y_values_sin[i]:.2f}, cos(x) = {y_values_cos[i]:.2f}")
